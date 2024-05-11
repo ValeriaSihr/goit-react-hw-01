@@ -1,12 +1,21 @@
-.user-card{
+.userCard{
 display: flex;
 align-items: center;
 justify-content: center;
-flex-direction: column;
 border: 2px solid rgba(83, 83, 83, 0.747);
 border-radius: 30px;
 background-color: #778899;
 position: relative;
+}
+
+.userProfile{
+    width: 400px;
+    border: none;
+    background-color: #C0C0C0;
+    border-radius: 10px;
+    width: 300px;
+height: 300px;
+   
 }
 
 .photo{
@@ -14,38 +23,42 @@ background-color: #C0C0C0;
 padding: 40px;
 margin: 40px;
 border-radius: 50%;
+width: 300px;
+height: 300px;
 }
 
-.user-name {
+.userName {
  font-weight: bold;
  font-size: 40px;
  font-family: Ubuntu;
  color: black;
-   
+     
 }
 
-.user-data {
+.userData {
  font-size: 30px;
  font-family: Ubuntu;
  color: black;
  opacity: 0.5; 
-    
+
 }
 
 
-.user-stats{
-border: 2px solid rgba(255, 255, 255, 0.747);
-border-radius: 30px;
-background-color: #C0C0C0;
+.userStats{
 color: black;
 font-size: 30px;
-font-family: Ubuntu; 
+font-family: Ubuntu;
+
 }
 
-.user-stats-list{
+.userStatsList{
     display: flex;
     justify-content: space-around;
-    width: 400px;
+    border: 2px solid rgba(255, 255, 255, 0.747);
+    background-color: #C0C0C0;
+    border-radius: 10px;
+    width: 300px;
     padding: 10px;
+    margin: 50px;
 
 }

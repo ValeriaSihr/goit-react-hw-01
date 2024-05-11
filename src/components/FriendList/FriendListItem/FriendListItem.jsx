@@ -5,10 +5,10 @@ export const FriendListItem = ({ friend: {
 }}) => {
     return <li className={css.listItems}>
           
-            <img className='img' src={avatar} alt="Avatar" width="48" />
-            <p>{name}</p>
+            <img className={css.img} src={avatar} alt="Avatar" width="48" />
+            <p className={css.friendName}>{name}</p>
             <p>
-              {isOnline ? (<span>Online</span>) : (<span>Offline</span>)}
+              {isOnline ? (<span className={css.friendOnline}>Online</span>) : (<span className={css.friendOffline}>Offline</span>)}
             </p>
           
         </li>

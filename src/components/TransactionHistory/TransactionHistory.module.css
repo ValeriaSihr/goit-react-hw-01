@@ -1,0 +1,13 @@
+.table{
+   width: 400px;
+   height: 60px;
+   background-color: lightslategray;
+   color: black;
+  
+}
+
+
+.text {
+    font-weight: 50px;
+   background-color: grey;
+}
