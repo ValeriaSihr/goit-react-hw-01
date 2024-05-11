@@ -1,0 +1,51 @@
+.user-card{
+display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: column;
+border: 2px solid rgba(83, 83, 83, 0.747);
+border-radius: 30px;
+background-color: #778899;
+position: relative;
+}
+
+.photo{
+background-color: #C0C0C0;
+padding: 40px;
+margin: 40px;
+border-radius: 50%;
+}
+
+.user-name {
+ font-weight: bold;
+ font-size: 40px;
+ font-family: Ubuntu;
+ color: black;
+   
+}
+
+.user-data {
+ font-size: 30px;
+ font-family: Ubuntu;
+ color: black;
+ opacity: 0.5; 
+    
+}
+
+
+.user-stats{
+border: 2px solid rgba(255, 255, 255, 0.747);
+border-radius: 30px;
+background-color: #C0C0C0;
+color: black;
+font-size: 30px;
+font-family: Ubuntu; 
+}
+
+.user-stats-list{
+    display: flex;
+    justify-content: space-around;
+    width: 400px;
+    padding: 10px;
+
+}
