@@ -18,14 +18,19 @@
     font-weight: bold;
 }
 
-.friendOnline{
+.df{
     font-size: 20px;
     font-weight: bold;
+}
+
+
+.friendOnline{
+    composes: df;
     color: green;
 }
 
 .friendOffline{
-    font-size: 20px;
-    font-weight: bold;
+    composes: df;
     color: red;
 }
+
